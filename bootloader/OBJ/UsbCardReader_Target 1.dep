@@ -1,0 +1,662 @@
+Dependencies for Project 'UsbCardReader', Target 'Target 1': (DO NOT MODIFY !)
+F (.\main.c)(0x56E6FDAE)(-c --cpu Cortex-M3 -g -O2 --apcs=interwork -I ..\HARDWARE\LED -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\USER -I ..\STM32F10x_FWLib\inc -I ..\CORE -I ..\HARDWARE\KEY -I ..\HARDWARE\LCD -I ..\HARDWARE\RTC -I ..\HARDWARE\RTC -I ..\HARDWARE\WKUP -I ..\HARDWARE\ADC -I ..\HARDWARE\DAC -I ..\HARDWARE\DMA -I ..\HARDWARE\IIC -I ..\HARDWARE\24CXX -I ..\HARDWARE\SPI -I ..\HARDWARE\FLASH -I ..\HARDWARE\TOUCH -I ..\HARDWARE\REMOTE -I ..\HARDWARE\ADXL345 -I ..\HARDWARE\DS18B20 -I ..\HARDWARE\NRF24L01 -I ..\HARDWARE\SRAM -I ..\MALLOC -I ..\HARDWARE\SD -I ..\FATFS\exfuns -I ..\FATFS\src -I ..\USMART -I ..\FATFS\src\option -I ..\USB\CONFIG -I ..\USB\LIB -I ..\HARDWARE-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include-D__UVISION_VERSION="523" -D_RTE_ -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\main.o --omf_browse ..\obj\main.crf --depend ..\obj\main.d)
+I (..\HARDWARE\LED\led.h)(0x56E6FDAE)
+I (..\SYSTEM\sys\sys.h)(0x56E6FDAE)
+I (..\USER\stm32f10x.h)(0x56E6FDAE)
+I (..\CORE\core_cm3.h)(0x56E6FDAE)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (..\USER\system_stm32f10x.h)(0x56E6FDAE)
+I (..\USER\stm32f10x_conf.h)(0x56E6FDAE)
+I (..\STM32F10x_FWLib\inc\stm32f10x_exti.h)(0x56E6FDAE)
+I (..\STM32F10x_FWLib\inc\stm32f10x_flash.h)(0x56E6FDAE)
+I (..\STM32F10x_FWLib\inc\stm32f10x_fsmc.h)(0x56E6FDAE)
+I (..\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x56E6FDAE)
+I (..\STM32F10x_FWLib\inc\stm32f10x_pwr.h)(0x56E6FDAE)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x56E6FDAE)
+I (..\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x56E6FDAE)
+I (..\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x56E6FDAE)
+I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x56E6FDAE)
+I (..\STM32F10x_FWLib\inc\misc.h)(0x56E6FDAE)
+I (..\SYSTEM\delay\delay.h)(0x56E6FDAE)
+I (..\HARDWARE\FLASH\flash.h)(0x56E6FDAE)
+I (..\FATFS\exfuns\fattester.h)(0x56E6FDAE)
+I (..\FATFS\src\ff.h)(0x56E6FDAE)
+I (..\FATFS\src\integer.h)(0x56E6FDAE)
+I (..\FATFS\src\ffconf.h)(0x56E6FDAE)
+I (..\USB\CONFIG\mass_mal.h)(0x56E6FDAE)
+I (..\USB\LIB\usb_lib.h)(0x56E6FDAE)
+I (..\USB\LIB\usb_type.h)(0x56E6FDAE)
+I (..\USB\CONFIG\usb_conf.h)(0x56E6FDAE)
+I (..\USB\LIB\usb_regs.h)(0x56E6FDAE)
+I (..\USB\LIB\usb_def.h)(0x56E6FDAE)
+I (..\USB\LIB\usb_core.h)(0x56E6FDAE)
+I (..\USB\LIB\usb_init.h)(0x56E6FDAE)
+I (..\USB\LIB\usb_mem.h)(0x56E6FDAE)
+I (..\USB\LIB\usb_int.h)(0x56E6FDAE)
+I (..\USB\CONFIG\hw_config.h)(0x56E6FDAE)
+I (..\USB\CONFIG\usb_pwr.h)(0x56E6FDAE)
+I (..\USB\CONFIG\memory.h)(0x56E6FDAE)
+I (..\USB\CONFIG\usb_bot.h)(0x56E6FDAE)
+I (hex.h)(0x56E6FDAE)
+I (FAT16.h)(0x56E6FDAE)
+I (main.h)(0x56E6FDAE)
+F (.\stm32f10x_it.c)(0x56E6FDAE)(-c --cpu Cortex-M3 -g -O2 --apcs=interwork -I ..\HARDWARE\LED -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\USER -I ..\STM32F10x_FWLib\inc -I ..\CORE -I ..\HARDWARE\KEY -I ..\HARDWARE\LCD -I ..\HARDWARE\RTC -I ..\HARDWARE\RTC -I ..\HARDWARE\WKUP -I ..\HARDWARE\ADC -I ..\HARDWARE\DAC -I ..\HARDWARE\DMA -I ..\HARDWARE\IIC -I ..\HARDWARE\24CXX -I ..\HARDWARE\SPI -I ..\HARDWARE\FLASH -I ..\HARDWARE\TOUCH -I ..\HARDWARE\REMOTE -I ..\HARDWARE\ADXL345 -I ..\HARDWARE\DS18B20 -I ..\HARDWARE\NRF24L01 -I ..\HARDWARE\SRAM -I ..\MALLOC -I ..\HARDWARE\SD -I ..\FATFS\exfuns -I ..\FATFS\src -I ..\USMART -I ..\FATFS\src\option -I ..\USB\CONFIG -I ..\USB\LIB -I ..\HARDWARE-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include-D__UVISION_VERSION="523" -D_RTE_ -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\stm32f10x_it.o --omf_browse ..\obj\stm32f10x_it.crf --depend ..\obj\stm32f10x_it.d)
+I (stm32f10x_it.h)(0x56E6FDAE)
+I (stm32f10x.h)(0x56E6FDAE)
+I (..\CORE\core_cm3.h)(0x56E6FDAE)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (system_stm32f10x.h)(0x56E6FDAE)
+I (stm32f10x_conf.h)(0x56E6FDAE)
+I (..\STM32F10x_FWLib\inc\stm32f10x_exti.h)(0x56E6FDAE)
+I (..\USER\stm32f10x.h)(0x56E6FDAE)
+I (..\STM32F10x_FWLib\inc\stm32f10x_flash.h)(0x56E6FDAE)
+I (..\STM32F10x_FWLib\inc\stm32f10x_fsmc.h)(0x56E6FDAE)
+I (..\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x56E6FDAE)
+I (..\STM32F10x_FWLib\inc\stm32f10x_pwr.h)(0x56E6FDAE)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x56E6FDAE)
+I (..\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x56E6FDAE)
+I (..\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x56E6FDAE)
+I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x56E6FDAE)
+I (..\STM32F10x_FWLib\inc\misc.h)(0x56E6FDAE)
+I (..\USB\LIB\usb_lib.h)(0x56E6FDAE)
+I (..\USB\LIB\usb_type.h)(0x56E6FDAE)
+I (..\USB\CONFIG\usb_conf.h)(0x56E6FDAE)
+I (..\USB\LIB\usb_regs.h)(0x56E6FDAE)
+I (..\USB\LIB\usb_def.h)(0x56E6FDAE)
+I (..\USB\LIB\usb_core.h)(0x56E6FDAE)
+I (..\USB\LIB\usb_init.h)(0x56E6FDAE)
+I (..\USB\LIB\usb_mem.h)(0x56E6FDAE)
+I (..\USB\LIB\usb_int.h)(0x56E6FDAE)
+I (..\USB\CONFIG\usb_istr.h)(0x56E6FDAE)
+F (.\system_stm32f10x.c)(0x56E6FDAE)(-c --cpu Cortex-M3 -g -O2 --apcs=interwork -I ..\HARDWARE\LED -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\USER -I ..\STM32F10x_FWLib\inc -I ..\CORE -I ..\HARDWARE\KEY -I ..\HARDWARE\LCD -I ..\HARDWARE\RTC -I ..\HARDWARE\RTC -I ..\HARDWARE\WKUP -I ..\HARDWARE\ADC -I ..\HARDWARE\DAC -I ..\HARDWARE\DMA -I ..\HARDWARE\IIC -I ..\HARDWARE\24CXX -I ..\HARDWARE\SPI -I ..\HARDWARE\FLASH -I ..\HARDWARE\TOUCH -I ..\HARDWARE\REMOTE -I ..\HARDWARE\ADXL345 -I ..\HARDWARE\DS18B20 -I ..\HARDWARE\NRF24L01 -I ..\HARDWARE\SRAM -I ..\MALLOC -I ..\HARDWARE\SD -I ..\FATFS\exfuns -I ..\FATFS\src -I ..\USMART -I ..\FATFS\src\option -I ..\USB\CONFIG -I ..\USB\LIB -I ..\HARDWARE-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include-D__UVISION_VERSION="523" -D_RTE_ -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\system_stm32f10x.o --omf_browse ..\obj\system_stm32f10x.crf --depend ..\obj\system_stm32f10x.d)
+I (stm32f10x.h)(0x56E6FDAE)
+I (..\CORE\core_cm3.h)(0x56E6FDAE)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (system_stm32f10x.h)(0x56E6FDAE)
+I (stm32f10x_conf.h)(0x56E6FDAE)
+I (..\STM32F10x_FWLib\inc\stm32f10x_exti.h)(0x56E6FDAE)
+I (..\USER\stm32f10x.h)(0x56E6FDAE)
+I (..\STM32F10x_FWLib\inc\stm32f10x_flash.h)(0x56E6FDAE)
+I (..\STM32F10x_FWLib\inc\stm32f10x_fsmc.h)(0x56E6FDAE)
+I (..\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x56E6FDAE)
+I (..\STM32F10x_FWLib\inc\stm32f10x_pwr.h)(0x56E6FDAE)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x56E6FDAE)
+I (..\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x56E6FDAE)
+I (..\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x56E6FDAE)
+I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x56E6FDAE)
+I (..\STM32F10x_FWLib\inc\misc.h)(0x56E6FDAE)
+F (..\HARDWARE\stmflash.c)(0x56E6FDAE)(-c --cpu Cortex-M3 -g -O2 --apcs=interwork -I ..\HARDWARE\LED -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\USER -I ..\STM32F10x_FWLib\inc -I ..\CORE -I ..\HARDWARE\KEY -I ..\HARDWARE\LCD -I ..\HARDWARE\RTC -I ..\HARDWARE\RTC -I ..\HARDWARE\WKUP -I ..\HARDWARE\ADC -I ..\HARDWARE\DAC -I ..\HARDWARE\DMA -I ..\HARDWARE\IIC -I ..\HARDWARE\24CXX -I ..\HARDWARE\SPI -I ..\HARDWARE\FLASH -I ..\HARDWARE\TOUCH -I ..\HARDWARE\REMOTE -I ..\HARDWARE\ADXL345 -I ..\HARDWARE\DS18B20 -I ..\HARDWARE\NRF24L01 -I ..\HARDWARE\SRAM -I ..\MALLOC -I ..\HARDWARE\SD -I ..\FATFS\exfuns -I ..\FATFS\src -I ..\USMART -I ..\FATFS\src\option -I ..\USB\CONFIG -I ..\USB\LIB -I ..\HARDWARE-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include-D__UVISION_VERSION="523" -D_RTE_ -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\stmflash.o --omf_browse ..\obj\stmflash.crf --depend ..\obj\stmflash.d)
+I (..\HARDWARE\stmflash.h)(0x56E6FDAE)
+I (..\SYSTEM\sys\sys.h)(0x56E6FDAE)
+I (..\USER\stm32f10x.h)(0x56E6FDAE)
+I (..\CORE\core_cm3.h)(0x56E6FDAE)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (..\USER\system_stm32f10x.h)(0x56E6FDAE)
+I (..\USER\stm32f10x_conf.h)(0x56E6FDAE)
+I (..\STM32F10x_FWLib\inc\stm32f10x_exti.h)(0x56E6FDAE)
+I (..\STM32F10x_FWLib\inc\stm32f10x_flash.h)(0x56E6FDAE)
+I (..\STM32F10x_FWLib\inc\stm32f10x_fsmc.h)(0x56E6FDAE)
+I (..\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x56E6FDAE)
+I (..\STM32F10x_FWLib\inc\stm32f10x_pwr.h)(0x56E6FDAE)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x56E6FDAE)
+I (..\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x56E6FDAE)
+I (..\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x56E6FDAE)
+I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x56E6FDAE)
+I (..\STM32F10x_FWLib\inc\misc.h)(0x56E6FDAE)
+I (..\SYSTEM\delay\delay.h)(0x56E6FDAE)
+I (..\SYSTEM\usart\usart.h)(0x56E6FDAE)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x57F606B8)
+F (..\HARDWARE\LED\led.c)(0x56E6FDAE)(-c --cpu Cortex-M3 -g -O2 --apcs=interwork -I ..\HARDWARE\LED -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\USER -I ..\STM32F10x_FWLib\inc -I ..\CORE -I ..\HARDWARE\KEY -I ..\HARDWARE\LCD -I ..\HARDWARE\RTC -I ..\HARDWARE\RTC -I ..\HARDWARE\WKUP -I ..\HARDWARE\ADC -I ..\HARDWARE\DAC -I ..\HARDWARE\DMA -I ..\HARDWARE\IIC -I ..\HARDWARE\24CXX -I ..\HARDWARE\SPI -I ..\HARDWARE\FLASH -I ..\HARDWARE\TOUCH -I ..\HARDWARE\REMOTE -I ..\HARDWARE\ADXL345 -I ..\HARDWARE\DS18B20 -I ..\HARDWARE\NRF24L01 -I ..\HARDWARE\SRAM -I ..\MALLOC -I ..\HARDWARE\SD -I ..\FATFS\exfuns -I ..\FATFS\src -I ..\USMART -I ..\FATFS\src\option -I ..\USB\CONFIG -I ..\USB\LIB -I ..\HARDWARE-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include-D__UVISION_VERSION="523" -D_RTE_ -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\led.o --omf_browse ..\obj\led.crf --depend ..\obj\led.d)
+I (..\HARDWARE\LED\led.h)(0x56E6FDAE)
+I (..\SYSTEM\sys\sys.h)(0x56E6FDAE)
+I (..\USER\stm32f10x.h)(0x56E6FDAE)
+I (..\CORE\core_cm3.h)(0x56E6FDAE)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (..\USER\system_stm32f10x.h)(0x56E6FDAE)
+I (..\USER\stm32f10x_conf.h)(0x56E6FDAE)
+I (..\STM32F10x_FWLib\inc\stm32f10x_exti.h)(0x56E6FDAE)
+I (..\STM32F10x_FWLib\inc\stm32f10x_flash.h)(0x56E6FDAE)
+I (..\STM32F10x_FWLib\inc\stm32f10x_fsmc.h)(0x56E6FDAE)
+I (..\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x56E6FDAE)
+I (..\STM32F10x_FWLib\inc\stm32f10x_pwr.h)(0x56E6FDAE)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x56E6FDAE)
+I (..\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x56E6FDAE)
+I (..\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x56E6FDAE)
+I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x56E6FDAE)
+I (..\STM32F10x_FWLib\inc\misc.h)(0x56E6FDAE)
+F (..\SYSTEM\delay\delay.c)(0x56E6FDAE)(-c --cpu Cortex-M3 -g -O2 --apcs=interwork -I ..\HARDWARE\LED -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\USER -I ..\STM32F10x_FWLib\inc -I ..\CORE -I ..\HARDWARE\KEY -I ..\HARDWARE\LCD -I ..\HARDWARE\RTC -I ..\HARDWARE\RTC -I ..\HARDWARE\WKUP -I ..\HARDWARE\ADC -I ..\HARDWARE\DAC -I ..\HARDWARE\DMA -I ..\HARDWARE\IIC -I ..\HARDWARE\24CXX -I ..\HARDWARE\SPI -I ..\HARDWARE\FLASH -I ..\HARDWARE\TOUCH -I ..\HARDWARE\REMOTE -I ..\HARDWARE\ADXL345 -I ..\HARDWARE\DS18B20 -I ..\HARDWARE\NRF24L01 -I ..\HARDWARE\SRAM -I ..\MALLOC -I ..\HARDWARE\SD -I ..\FATFS\exfuns -I ..\FATFS\src -I ..\USMART -I ..\FATFS\src\option -I ..\USB\CONFIG -I ..\USB\LIB -I ..\HARDWARE-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include-D__UVISION_VERSION="523" -D_RTE_ -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\delay.o --omf_browse ..\obj\delay.crf --depend ..\obj\delay.d)
+I (..\SYSTEM\delay\delay.h)(0x56E6FDAE)
+I (..\SYSTEM\sys\sys.h)(0x56E6FDAE)
+I (..\USER\stm32f10x.h)(0x56E6FDAE)
+I (..\CORE\core_cm3.h)(0x56E6FDAE)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (..\USER\system_stm32f10x.h)(0x56E6FDAE)
+I (..\USER\stm32f10x_conf.h)(0x56E6FDAE)
+I (..\STM32F10x_FWLib\inc\stm32f10x_exti.h)(0x56E6FDAE)
+I (..\STM32F10x_FWLib\inc\stm32f10x_flash.h)(0x56E6FDAE)
+I (..\STM32F10x_FWLib\inc\stm32f10x_fsmc.h)(0x56E6FDAE)
+I (..\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x56E6FDAE)
+I (..\STM32F10x_FWLib\inc\stm32f10x_pwr.h)(0x56E6FDAE)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x56E6FDAE)
+I (..\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x56E6FDAE)
+I (..\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x56E6FDAE)
+I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x56E6FDAE)
+I (..\STM32F10x_FWLib\inc\misc.h)(0x56E6FDAE)
+F (..\SYSTEM\sys\sys.c)(0x56E6FDAE)(-c --cpu Cortex-M3 -g -O2 --apcs=interwork -I ..\HARDWARE\LED -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\USER -I ..\STM32F10x_FWLib\inc -I ..\CORE -I ..\HARDWARE\KEY -I ..\HARDWARE\LCD -I ..\HARDWARE\RTC -I ..\HARDWARE\RTC -I ..\HARDWARE\WKUP -I ..\HARDWARE\ADC -I ..\HARDWARE\DAC -I ..\HARDWARE\DMA -I ..\HARDWARE\IIC -I ..\HARDWARE\24CXX -I ..\HARDWARE\SPI -I ..\HARDWARE\FLASH -I ..\HARDWARE\TOUCH -I ..\HARDWARE\REMOTE -I ..\HARDWARE\ADXL345 -I ..\HARDWARE\DS18B20 -I ..\HARDWARE\NRF24L01 -I ..\HARDWARE\SRAM -I ..\MALLOC -I ..\HARDWARE\SD -I ..\FATFS\exfuns -I ..\FATFS\src -I ..\USMART -I ..\FATFS\src\option -I ..\USB\CONFIG -I ..\USB\LIB -I ..\HARDWARE-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include-D__UVISION_VERSION="523" -D_RTE_ -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\sys.o --omf_browse ..\obj\sys.crf --depend ..\obj\sys.d)
+I (..\SYSTEM\sys\sys.h)(0x56E6FDAE)
+I (..\USER\stm32f10x.h)(0x56E6FDAE)
+I (..\CORE\core_cm3.h)(0x56E6FDAE)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (..\USER\system_stm32f10x.h)(0x56E6FDAE)
+I (..\USER\stm32f10x_conf.h)(0x56E6FDAE)
+I (..\STM32F10x_FWLib\inc\stm32f10x_exti.h)(0x56E6FDAE)
+I (..\STM32F10x_FWLib\inc\stm32f10x_flash.h)(0x56E6FDAE)
+I (..\STM32F10x_FWLib\inc\stm32f10x_fsmc.h)(0x56E6FDAE)
+I (..\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x56E6FDAE)
+I (..\STM32F10x_FWLib\inc\stm32f10x_pwr.h)(0x56E6FDAE)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x56E6FDAE)
+I (..\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x56E6FDAE)
+I (..\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x56E6FDAE)
+I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x56E6FDAE)
+I (..\STM32F10x_FWLib\inc\misc.h)(0x56E6FDAE)
+F (..\CORE\core_cm3.c)(0x56E6FDAE)(-c --cpu Cortex-M3 -g -O2 --apcs=interwork -I ..\HARDWARE\LED -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\USER -I ..\STM32F10x_FWLib\inc -I ..\CORE -I ..\HARDWARE\KEY -I ..\HARDWARE\LCD -I ..\HARDWARE\RTC -I ..\HARDWARE\RTC -I ..\HARDWARE\WKUP -I ..\HARDWARE\ADC -I ..\HARDWARE\DAC -I ..\HARDWARE\DMA -I ..\HARDWARE\IIC -I ..\HARDWARE\24CXX -I ..\HARDWARE\SPI -I ..\HARDWARE\FLASH -I ..\HARDWARE\TOUCH -I ..\HARDWARE\REMOTE -I ..\HARDWARE\ADXL345 -I ..\HARDWARE\DS18B20 -I ..\HARDWARE\NRF24L01 -I ..\HARDWARE\SRAM -I ..\MALLOC -I ..\HARDWARE\SD -I ..\FATFS\exfuns -I ..\FATFS\src -I ..\USMART -I ..\FATFS\src\option -I ..\USB\CONFIG -I ..\USB\LIB -I ..\HARDWARE-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include-D__UVISION_VERSION="523" -D_RTE_ -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\core_cm3.o --omf_browse ..\obj\core_cm3.crf --depend ..\obj\core_cm3.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+F (..\CORE\startup_stm32f10x_hd.s)(0x56E6FDAE)(--cpu Cortex-M3 -g --apcs=interwork -I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include--pd "__UVISION_VERSION SETA 523" --pd "_RTE_ SETA 1" --pd "STM32F10X_HD SETA 1"--list .\startup_stm32f10x_hd.lst --xref -o ..\obj\startup_stm32f10x_hd.o --depend ..\obj\startup_stm32f10x_hd.d)
+F (..\STM32F10x_FWLib\src\misc.c)(0x56E6FDAE)(-c --cpu Cortex-M3 -g -O2 --apcs=interwork -I ..\HARDWARE\LED -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\USER -I ..\STM32F10x_FWLib\inc -I ..\CORE -I ..\HARDWARE\KEY -I ..\HARDWARE\LCD -I ..\HARDWARE\RTC -I ..\HARDWARE\RTC -I ..\HARDWARE\WKUP -I ..\HARDWARE\ADC -I ..\HARDWARE\DAC -I ..\HARDWARE\DMA -I ..\HARDWARE\IIC -I ..\HARDWARE\24CXX -I ..\HARDWARE\SPI -I ..\HARDWARE\FLASH -I ..\HARDWARE\TOUCH -I ..\HARDWARE\REMOTE -I ..\HARDWARE\ADXL345 -I ..\HARDWARE\DS18B20 -I ..\HARDWARE\NRF24L01 -I ..\HARDWARE\SRAM -I ..\MALLOC -I ..\HARDWARE\SD -I ..\FATFS\exfuns -I ..\FATFS\src -I ..\USMART -I ..\FATFS\src\option -I ..\USB\CONFIG -I ..\USB\LIB -I ..\HARDWARE-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include-D__UVISION_VERSION="523" -D_RTE_ -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\misc.o --omf_browse ..\obj\misc.crf --depend ..\obj\misc.d)
+I (..\STM32F10x_FWLib\inc\misc.h)(0x56E6FDAE)
+I (..\USER\stm32f10x.h)(0x56E6FDAE)
+I (..\CORE\core_cm3.h)(0x56E6FDAE)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (..\USER\system_stm32f10x.h)(0x56E6FDAE)
+I (..\USER\stm32f10x_conf.h)(0x56E6FDAE)
+I (..\STM32F10x_FWLib\inc\stm32f10x_exti.h)(0x56E6FDAE)
+I (..\STM32F10x_FWLib\inc\stm32f10x_flash.h)(0x56E6FDAE)
+I (..\STM32F10x_FWLib\inc\stm32f10x_fsmc.h)(0x56E6FDAE)
+I (..\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x56E6FDAE)
+I (..\STM32F10x_FWLib\inc\stm32f10x_pwr.h)(0x56E6FDAE)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x56E6FDAE)
+I (..\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x56E6FDAE)
+I (..\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x56E6FDAE)
+I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x56E6FDAE)
+F (..\STM32F10x_FWLib\src\stm32f10x_gpio.c)(0x56E6FDAE)(-c --cpu Cortex-M3 -g -O2 --apcs=interwork -I ..\HARDWARE\LED -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\USER -I ..\STM32F10x_FWLib\inc -I ..\CORE -I ..\HARDWARE\KEY -I ..\HARDWARE\LCD -I ..\HARDWARE\RTC -I ..\HARDWARE\RTC -I ..\HARDWARE\WKUP -I ..\HARDWARE\ADC -I ..\HARDWARE\DAC -I ..\HARDWARE\DMA -I ..\HARDWARE\IIC -I ..\HARDWARE\24CXX -I ..\HARDWARE\SPI -I ..\HARDWARE\FLASH -I ..\HARDWARE\TOUCH -I ..\HARDWARE\REMOTE -I ..\HARDWARE\ADXL345 -I ..\HARDWARE\DS18B20 -I ..\HARDWARE\NRF24L01 -I ..\HARDWARE\SRAM -I ..\MALLOC -I ..\HARDWARE\SD -I ..\FATFS\exfuns -I ..\FATFS\src -I ..\USMART -I ..\FATFS\src\option -I ..\USB\CONFIG -I ..\USB\LIB -I ..\HARDWARE-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include-D__UVISION_VERSION="523" -D_RTE_ -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\stm32f10x_gpio.o --omf_browse ..\obj\stm32f10x_gpio.crf --depend ..\obj\stm32f10x_gpio.d)
+I (..\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x56E6FDAE)
+I (..\USER\stm32f10x.h)(0x56E6FDAE)
+I (..\CORE\core_cm3.h)(0x56E6FDAE)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (..\USER\system_stm32f10x.h)(0x56E6FDAE)
+I (..\USER\stm32f10x_conf.h)(0x56E6FDAE)
+I (..\STM32F10x_FWLib\inc\stm32f10x_exti.h)(0x56E6FDAE)
+I (..\STM32F10x_FWLib\inc\stm32f10x_flash.h)(0x56E6FDAE)
+I (..\STM32F10x_FWLib\inc\stm32f10x_fsmc.h)(0x56E6FDAE)
+I (..\STM32F10x_FWLib\inc\stm32f10x_pwr.h)(0x56E6FDAE)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x56E6FDAE)
+I (..\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x56E6FDAE)
+I (..\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x56E6FDAE)
+I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x56E6FDAE)
+I (..\STM32F10x_FWLib\inc\misc.h)(0x56E6FDAE)
+F (..\STM32F10x_FWLib\src\stm32f10x_rcc.c)(0x56E6FDAE)(-c --cpu Cortex-M3 -g -O2 --apcs=interwork -I ..\HARDWARE\LED -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\USER -I ..\STM32F10x_FWLib\inc -I ..\CORE -I ..\HARDWARE\KEY -I ..\HARDWARE\LCD -I ..\HARDWARE\RTC -I ..\HARDWARE\RTC -I ..\HARDWARE\WKUP -I ..\HARDWARE\ADC -I ..\HARDWARE\DAC -I ..\HARDWARE\DMA -I ..\HARDWARE\IIC -I ..\HARDWARE\24CXX -I ..\HARDWARE\SPI -I ..\HARDWARE\FLASH -I ..\HARDWARE\TOUCH -I ..\HARDWARE\REMOTE -I ..\HARDWARE\ADXL345 -I ..\HARDWARE\DS18B20 -I ..\HARDWARE\NRF24L01 -I ..\HARDWARE\SRAM -I ..\MALLOC -I ..\HARDWARE\SD -I ..\FATFS\exfuns -I ..\FATFS\src -I ..\USMART -I ..\FATFS\src\option -I ..\USB\CONFIG -I ..\USB\LIB -I ..\HARDWARE-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include-D__UVISION_VERSION="523" -D_RTE_ -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\stm32f10x_rcc.o --omf_browse ..\obj\stm32f10x_rcc.crf --depend ..\obj\stm32f10x_rcc.d)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x56E6FDAE)
+I (..\USER\stm32f10x.h)(0x56E6FDAE)
+I (..\CORE\core_cm3.h)(0x56E6FDAE)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (..\USER\system_stm32f10x.h)(0x56E6FDAE)
+I (..\USER\stm32f10x_conf.h)(0x56E6FDAE)
+I (..\STM32F10x_FWLib\inc\stm32f10x_exti.h)(0x56E6FDAE)
+I (..\STM32F10x_FWLib\inc\stm32f10x_flash.h)(0x56E6FDAE)
+I (..\STM32F10x_FWLib\inc\stm32f10x_fsmc.h)(0x56E6FDAE)
+I (..\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x56E6FDAE)
+I (..\STM32F10x_FWLib\inc\stm32f10x_pwr.h)(0x56E6FDAE)
+I (..\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x56E6FDAE)
+I (..\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x56E6FDAE)
+I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x56E6FDAE)
+I (..\STM32F10x_FWLib\inc\misc.h)(0x56E6FDAE)
+F (..\STM32F10x_FWLib\src\stm32f10x_exti.c)(0x56E6FDAE)(-c --cpu Cortex-M3 -g -O2 --apcs=interwork -I ..\HARDWARE\LED -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\USER -I ..\STM32F10x_FWLib\inc -I ..\CORE -I ..\HARDWARE\KEY -I ..\HARDWARE\LCD -I ..\HARDWARE\RTC -I ..\HARDWARE\RTC -I ..\HARDWARE\WKUP -I ..\HARDWARE\ADC -I ..\HARDWARE\DAC -I ..\HARDWARE\DMA -I ..\HARDWARE\IIC -I ..\HARDWARE\24CXX -I ..\HARDWARE\SPI -I ..\HARDWARE\FLASH -I ..\HARDWARE\TOUCH -I ..\HARDWARE\REMOTE -I ..\HARDWARE\ADXL345 -I ..\HARDWARE\DS18B20 -I ..\HARDWARE\NRF24L01 -I ..\HARDWARE\SRAM -I ..\MALLOC -I ..\HARDWARE\SD -I ..\FATFS\exfuns -I ..\FATFS\src -I ..\USMART -I ..\FATFS\src\option -I ..\USB\CONFIG -I ..\USB\LIB -I ..\HARDWARE-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include-D__UVISION_VERSION="523" -D_RTE_ -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\stm32f10x_exti.o --omf_browse ..\obj\stm32f10x_exti.crf --depend ..\obj\stm32f10x_exti.d)
+I (..\STM32F10x_FWLib\inc\stm32f10x_exti.h)(0x56E6FDAE)
+I (..\USER\stm32f10x.h)(0x56E6FDAE)
+I (..\CORE\core_cm3.h)(0x56E6FDAE)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (..\USER\system_stm32f10x.h)(0x56E6FDAE)
+I (..\USER\stm32f10x_conf.h)(0x56E6FDAE)
+I (..\STM32F10x_FWLib\inc\stm32f10x_flash.h)(0x56E6FDAE)
+I (..\STM32F10x_FWLib\inc\stm32f10x_fsmc.h)(0x56E6FDAE)
+I (..\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x56E6FDAE)
+I (..\STM32F10x_FWLib\inc\stm32f10x_pwr.h)(0x56E6FDAE)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x56E6FDAE)
+I (..\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x56E6FDAE)
+I (..\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x56E6FDAE)
+I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x56E6FDAE)
+I (..\STM32F10x_FWLib\inc\misc.h)(0x56E6FDAE)
+F (..\STM32F10x_FWLib\src\stm32f10x_flash.c)(0x56E6FDAE)(-c --cpu Cortex-M3 -g -O2 --apcs=interwork -I ..\HARDWARE\LED -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\USER -I ..\STM32F10x_FWLib\inc -I ..\CORE -I ..\HARDWARE\KEY -I ..\HARDWARE\LCD -I ..\HARDWARE\RTC -I ..\HARDWARE\RTC -I ..\HARDWARE\WKUP -I ..\HARDWARE\ADC -I ..\HARDWARE\DAC -I ..\HARDWARE\DMA -I ..\HARDWARE\IIC -I ..\HARDWARE\24CXX -I ..\HARDWARE\SPI -I ..\HARDWARE\FLASH -I ..\HARDWARE\TOUCH -I ..\HARDWARE\REMOTE -I ..\HARDWARE\ADXL345 -I ..\HARDWARE\DS18B20 -I ..\HARDWARE\NRF24L01 -I ..\HARDWARE\SRAM -I ..\MALLOC -I ..\HARDWARE\SD -I ..\FATFS\exfuns -I ..\FATFS\src -I ..\USMART -I ..\FATFS\src\option -I ..\USB\CONFIG -I ..\USB\LIB -I ..\HARDWARE-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include-D__UVISION_VERSION="523" -D_RTE_ -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\stm32f10x_flash.o --omf_browse ..\obj\stm32f10x_flash.crf --depend ..\obj\stm32f10x_flash.d)
+I (..\STM32F10x_FWLib\inc\stm32f10x_flash.h)(0x56E6FDAE)
+I (..\USER\stm32f10x.h)(0x56E6FDAE)
+I (..\CORE\core_cm3.h)(0x56E6FDAE)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (..\USER\system_stm32f10x.h)(0x56E6FDAE)
+I (..\USER\stm32f10x_conf.h)(0x56E6FDAE)
+I (..\STM32F10x_FWLib\inc\stm32f10x_exti.h)(0x56E6FDAE)
+I (..\STM32F10x_FWLib\inc\stm32f10x_fsmc.h)(0x56E6FDAE)
+I (..\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x56E6FDAE)
+I (..\STM32F10x_FWLib\inc\stm32f10x_pwr.h)(0x56E6FDAE)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x56E6FDAE)
+I (..\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x56E6FDAE)
+I (..\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x56E6FDAE)
+I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x56E6FDAE)
+I (..\STM32F10x_FWLib\inc\misc.h)(0x56E6FDAE)
+F (..\USB\LIB\usb_core.c)(0x56E6FDAE)(-c --cpu Cortex-M3 -g -O2 --apcs=interwork -I ..\HARDWARE\LED -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\USER -I ..\STM32F10x_FWLib\inc -I ..\CORE -I ..\HARDWARE\KEY -I ..\HARDWARE\LCD -I ..\HARDWARE\RTC -I ..\HARDWARE\RTC -I ..\HARDWARE\WKUP -I ..\HARDWARE\ADC -I ..\HARDWARE\DAC -I ..\HARDWARE\DMA -I ..\HARDWARE\IIC -I ..\HARDWARE\24CXX -I ..\HARDWARE\SPI -I ..\HARDWARE\FLASH -I ..\HARDWARE\TOUCH -I ..\HARDWARE\REMOTE -I ..\HARDWARE\ADXL345 -I ..\HARDWARE\DS18B20 -I ..\HARDWARE\NRF24L01 -I ..\HARDWARE\SRAM -I ..\MALLOC -I ..\HARDWARE\SD -I ..\FATFS\exfuns -I ..\FATFS\src -I ..\USMART -I ..\FATFS\src\option -I ..\USB\CONFIG -I ..\USB\LIB -I ..\HARDWARE-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include-D__UVISION_VERSION="523" -D_RTE_ -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\usb_core.o --omf_browse ..\obj\usb_core.crf --depend ..\obj\usb_core.d)
+I (..\USB\LIB\usb_lib.h)(0x56E6FDAE)
+I (..\USB\LIB\usb_type.h)(0x56E6FDAE)
+I (..\USB\CONFIG\usb_conf.h)(0x56E6FDAE)
+I (..\USB\LIB\usb_regs.h)(0x56E6FDAE)
+I (..\USER\stm32f10x.h)(0x56E6FDAE)
+I (..\CORE\core_cm3.h)(0x56E6FDAE)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (..\USER\system_stm32f10x.h)(0x56E6FDAE)
+I (..\USER\stm32f10x_conf.h)(0x56E6FDAE)
+I (..\STM32F10x_FWLib\inc\stm32f10x_exti.h)(0x56E6FDAE)
+I (..\STM32F10x_FWLib\inc\stm32f10x_flash.h)(0x56E6FDAE)
+I (..\STM32F10x_FWLib\inc\stm32f10x_fsmc.h)(0x56E6FDAE)
+I (..\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x56E6FDAE)
+I (..\STM32F10x_FWLib\inc\stm32f10x_pwr.h)(0x56E6FDAE)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x56E6FDAE)
+I (..\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x56E6FDAE)
+I (..\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x56E6FDAE)
+I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x56E6FDAE)
+I (..\STM32F10x_FWLib\inc\misc.h)(0x56E6FDAE)
+I (..\USB\LIB\usb_def.h)(0x56E6FDAE)
+I (..\USB\LIB\usb_core.h)(0x56E6FDAE)
+I (..\USB\LIB\usb_init.h)(0x56E6FDAE)
+I (..\USB\LIB\usb_mem.h)(0x56E6FDAE)
+I (..\USB\LIB\usb_int.h)(0x56E6FDAE)
+F (..\USB\LIB\usb_init.c)(0x56E6FDAE)(-c --cpu Cortex-M3 -g -O2 --apcs=interwork -I ..\HARDWARE\LED -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\USER -I ..\STM32F10x_FWLib\inc -I ..\CORE -I ..\HARDWARE\KEY -I ..\HARDWARE\LCD -I ..\HARDWARE\RTC -I ..\HARDWARE\RTC -I ..\HARDWARE\WKUP -I ..\HARDWARE\ADC -I ..\HARDWARE\DAC -I ..\HARDWARE\DMA -I ..\HARDWARE\IIC -I ..\HARDWARE\24CXX -I ..\HARDWARE\SPI -I ..\HARDWARE\FLASH -I ..\HARDWARE\TOUCH -I ..\HARDWARE\REMOTE -I ..\HARDWARE\ADXL345 -I ..\HARDWARE\DS18B20 -I ..\HARDWARE\NRF24L01 -I ..\HARDWARE\SRAM -I ..\MALLOC -I ..\HARDWARE\SD -I ..\FATFS\exfuns -I ..\FATFS\src -I ..\USMART -I ..\FATFS\src\option -I ..\USB\CONFIG -I ..\USB\LIB -I ..\HARDWARE-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include-D__UVISION_VERSION="523" -D_RTE_ -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\usb_init.o --omf_browse ..\obj\usb_init.crf --depend ..\obj\usb_init.d)
+I (..\USB\LIB\usb_lib.h)(0x56E6FDAE)
+I (..\USB\LIB\usb_type.h)(0x56E6FDAE)
+I (..\USB\CONFIG\usb_conf.h)(0x56E6FDAE)
+I (..\USB\LIB\usb_regs.h)(0x56E6FDAE)
+I (..\USER\stm32f10x.h)(0x56E6FDAE)
+I (..\CORE\core_cm3.h)(0x56E6FDAE)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (..\USER\system_stm32f10x.h)(0x56E6FDAE)
+I (..\USER\stm32f10x_conf.h)(0x56E6FDAE)
+I (..\STM32F10x_FWLib\inc\stm32f10x_exti.h)(0x56E6FDAE)
+I (..\STM32F10x_FWLib\inc\stm32f10x_flash.h)(0x56E6FDAE)
+I (..\STM32F10x_FWLib\inc\stm32f10x_fsmc.h)(0x56E6FDAE)
+I (..\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x56E6FDAE)
+I (..\STM32F10x_FWLib\inc\stm32f10x_pwr.h)(0x56E6FDAE)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x56E6FDAE)
+I (..\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x56E6FDAE)
+I (..\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x56E6FDAE)
+I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x56E6FDAE)
+I (..\STM32F10x_FWLib\inc\misc.h)(0x56E6FDAE)
+I (..\USB\LIB\usb_def.h)(0x56E6FDAE)
+I (..\USB\LIB\usb_core.h)(0x56E6FDAE)
+I (..\USB\LIB\usb_init.h)(0x56E6FDAE)
+I (..\USB\LIB\usb_mem.h)(0x56E6FDAE)
+I (..\USB\LIB\usb_int.h)(0x56E6FDAE)
+F (..\USB\LIB\usb_int.c)(0x56E6FDAE)(-c --cpu Cortex-M3 -g -O2 --apcs=interwork -I ..\HARDWARE\LED -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\USER -I ..\STM32F10x_FWLib\inc -I ..\CORE -I ..\HARDWARE\KEY -I ..\HARDWARE\LCD -I ..\HARDWARE\RTC -I ..\HARDWARE\RTC -I ..\HARDWARE\WKUP -I ..\HARDWARE\ADC -I ..\HARDWARE\DAC -I ..\HARDWARE\DMA -I ..\HARDWARE\IIC -I ..\HARDWARE\24CXX -I ..\HARDWARE\SPI -I ..\HARDWARE\FLASH -I ..\HARDWARE\TOUCH -I ..\HARDWARE\REMOTE -I ..\HARDWARE\ADXL345 -I ..\HARDWARE\DS18B20 -I ..\HARDWARE\NRF24L01 -I ..\HARDWARE\SRAM -I ..\MALLOC -I ..\HARDWARE\SD -I ..\FATFS\exfuns -I ..\FATFS\src -I ..\USMART -I ..\FATFS\src\option -I ..\USB\CONFIG -I ..\USB\LIB -I ..\HARDWARE-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include-D__UVISION_VERSION="523" -D_RTE_ -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\usb_int.o --omf_browse ..\obj\usb_int.crf --depend ..\obj\usb_int.d)
+I (..\USB\LIB\usb_lib.h)(0x56E6FDAE)
+I (..\USB\LIB\usb_type.h)(0x56E6FDAE)
+I (..\USB\CONFIG\usb_conf.h)(0x56E6FDAE)
+I (..\USB\LIB\usb_regs.h)(0x56E6FDAE)
+I (..\USER\stm32f10x.h)(0x56E6FDAE)
+I (..\CORE\core_cm3.h)(0x56E6FDAE)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (..\USER\system_stm32f10x.h)(0x56E6FDAE)
+I (..\USER\stm32f10x_conf.h)(0x56E6FDAE)
+I (..\STM32F10x_FWLib\inc\stm32f10x_exti.h)(0x56E6FDAE)
+I (..\STM32F10x_FWLib\inc\stm32f10x_flash.h)(0x56E6FDAE)
+I (..\STM32F10x_FWLib\inc\stm32f10x_fsmc.h)(0x56E6FDAE)
+I (..\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x56E6FDAE)
+I (..\STM32F10x_FWLib\inc\stm32f10x_pwr.h)(0x56E6FDAE)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x56E6FDAE)
+I (..\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x56E6FDAE)
+I (..\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x56E6FDAE)
+I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x56E6FDAE)
+I (..\STM32F10x_FWLib\inc\misc.h)(0x56E6FDAE)
+I (..\USB\LIB\usb_def.h)(0x56E6FDAE)
+I (..\USB\LIB\usb_core.h)(0x56E6FDAE)
+I (..\USB\LIB\usb_init.h)(0x56E6FDAE)
+I (..\USB\LIB\usb_mem.h)(0x56E6FDAE)
+I (..\USB\LIB\usb_int.h)(0x56E6FDAE)
+F (..\USB\LIB\usb_mem.c)(0x56E6FDAE)(-c --cpu Cortex-M3 -g -O2 --apcs=interwork -I ..\HARDWARE\LED -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\USER -I ..\STM32F10x_FWLib\inc -I ..\CORE -I ..\HARDWARE\KEY -I ..\HARDWARE\LCD -I ..\HARDWARE\RTC -I ..\HARDWARE\RTC -I ..\HARDWARE\WKUP -I ..\HARDWARE\ADC -I ..\HARDWARE\DAC -I ..\HARDWARE\DMA -I ..\HARDWARE\IIC -I ..\HARDWARE\24CXX -I ..\HARDWARE\SPI -I ..\HARDWARE\FLASH -I ..\HARDWARE\TOUCH -I ..\HARDWARE\REMOTE -I ..\HARDWARE\ADXL345 -I ..\HARDWARE\DS18B20 -I ..\HARDWARE\NRF24L01 -I ..\HARDWARE\SRAM -I ..\MALLOC -I ..\HARDWARE\SD -I ..\FATFS\exfuns -I ..\FATFS\src -I ..\USMART -I ..\FATFS\src\option -I ..\USB\CONFIG -I ..\USB\LIB -I ..\HARDWARE-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include-D__UVISION_VERSION="523" -D_RTE_ -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\usb_mem.o --omf_browse ..\obj\usb_mem.crf --depend ..\obj\usb_mem.d)
+I (..\USB\LIB\usb_lib.h)(0x56E6FDAE)
+I (..\USB\LIB\usb_type.h)(0x56E6FDAE)
+I (..\USB\CONFIG\usb_conf.h)(0x56E6FDAE)
+I (..\USB\LIB\usb_regs.h)(0x56E6FDAE)
+I (..\USER\stm32f10x.h)(0x56E6FDAE)
+I (..\CORE\core_cm3.h)(0x56E6FDAE)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (..\USER\system_stm32f10x.h)(0x56E6FDAE)
+I (..\USER\stm32f10x_conf.h)(0x56E6FDAE)
+I (..\STM32F10x_FWLib\inc\stm32f10x_exti.h)(0x56E6FDAE)
+I (..\STM32F10x_FWLib\inc\stm32f10x_flash.h)(0x56E6FDAE)
+I (..\STM32F10x_FWLib\inc\stm32f10x_fsmc.h)(0x56E6FDAE)
+I (..\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x56E6FDAE)
+I (..\STM32F10x_FWLib\inc\stm32f10x_pwr.h)(0x56E6FDAE)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x56E6FDAE)
+I (..\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x56E6FDAE)
+I (..\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x56E6FDAE)
+I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x56E6FDAE)
+I (..\STM32F10x_FWLib\inc\misc.h)(0x56E6FDAE)
+I (..\USB\LIB\usb_def.h)(0x56E6FDAE)
+I (..\USB\LIB\usb_core.h)(0x56E6FDAE)
+I (..\USB\LIB\usb_init.h)(0x56E6FDAE)
+I (..\USB\LIB\usb_mem.h)(0x56E6FDAE)
+I (..\USB\LIB\usb_int.h)(0x56E6FDAE)
+F (..\USB\LIB\usb_regs.c)(0x56E6FDAE)(-c --cpu Cortex-M3 -g -O2 --apcs=interwork -I ..\HARDWARE\LED -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\USER -I ..\STM32F10x_FWLib\inc -I ..\CORE -I ..\HARDWARE\KEY -I ..\HARDWARE\LCD -I ..\HARDWARE\RTC -I ..\HARDWARE\RTC -I ..\HARDWARE\WKUP -I ..\HARDWARE\ADC -I ..\HARDWARE\DAC -I ..\HARDWARE\DMA -I ..\HARDWARE\IIC -I ..\HARDWARE\24CXX -I ..\HARDWARE\SPI -I ..\HARDWARE\FLASH -I ..\HARDWARE\TOUCH -I ..\HARDWARE\REMOTE -I ..\HARDWARE\ADXL345 -I ..\HARDWARE\DS18B20 -I ..\HARDWARE\NRF24L01 -I ..\HARDWARE\SRAM -I ..\MALLOC -I ..\HARDWARE\SD -I ..\FATFS\exfuns -I ..\FATFS\src -I ..\USMART -I ..\FATFS\src\option -I ..\USB\CONFIG -I ..\USB\LIB -I ..\HARDWARE-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include-D__UVISION_VERSION="523" -D_RTE_ -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\usb_regs.o --omf_browse ..\obj\usb_regs.crf --depend ..\obj\usb_regs.d)
+I (..\USB\LIB\usb_lib.h)(0x56E6FDAE)
+I (..\USB\LIB\usb_type.h)(0x56E6FDAE)
+I (..\USB\CONFIG\usb_conf.h)(0x56E6FDAE)
+I (..\USB\LIB\usb_regs.h)(0x56E6FDAE)
+I (..\USER\stm32f10x.h)(0x56E6FDAE)
+I (..\CORE\core_cm3.h)(0x56E6FDAE)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (..\USER\system_stm32f10x.h)(0x56E6FDAE)
+I (..\USER\stm32f10x_conf.h)(0x56E6FDAE)
+I (..\STM32F10x_FWLib\inc\stm32f10x_exti.h)(0x56E6FDAE)
+I (..\STM32F10x_FWLib\inc\stm32f10x_flash.h)(0x56E6FDAE)
+I (..\STM32F10x_FWLib\inc\stm32f10x_fsmc.h)(0x56E6FDAE)
+I (..\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x56E6FDAE)
+I (..\STM32F10x_FWLib\inc\stm32f10x_pwr.h)(0x56E6FDAE)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x56E6FDAE)
+I (..\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x56E6FDAE)
+I (..\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x56E6FDAE)
+I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x56E6FDAE)
+I (..\STM32F10x_FWLib\inc\misc.h)(0x56E6FDAE)
+I (..\USB\LIB\usb_def.h)(0x56E6FDAE)
+I (..\USB\LIB\usb_core.h)(0x56E6FDAE)
+I (..\USB\LIB\usb_init.h)(0x56E6FDAE)
+I (..\USB\LIB\usb_mem.h)(0x56E6FDAE)
+I (..\USB\LIB\usb_int.h)(0x56E6FDAE)
+F (..\USB\CONFIG\hw_config.c)(0x56E6FDAE)(-c --cpu Cortex-M3 -g -O2 --apcs=interwork -I ..\HARDWARE\LED -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\USER -I ..\STM32F10x_FWLib\inc -I ..\CORE -I ..\HARDWARE\KEY -I ..\HARDWARE\LCD -I ..\HARDWARE\RTC -I ..\HARDWARE\RTC -I ..\HARDWARE\WKUP -I ..\HARDWARE\ADC -I ..\HARDWARE\DAC -I ..\HARDWARE\DMA -I ..\HARDWARE\IIC -I ..\HARDWARE\24CXX -I ..\HARDWARE\SPI -I ..\HARDWARE\FLASH -I ..\HARDWARE\TOUCH -I ..\HARDWARE\REMOTE -I ..\HARDWARE\ADXL345 -I ..\HARDWARE\DS18B20 -I ..\HARDWARE\NRF24L01 -I ..\HARDWARE\SRAM -I ..\MALLOC -I ..\HARDWARE\SD -I ..\FATFS\exfuns -I ..\FATFS\src -I ..\USMART -I ..\FATFS\src\option -I ..\USB\CONFIG -I ..\USB\LIB -I ..\HARDWARE-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include-D__UVISION_VERSION="523" -D_RTE_ -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\hw_config.o --omf_browse ..\obj\hw_config.crf --depend ..\obj\hw_config.d)
+I (..\SYSTEM\sys\sys.h)(0x56E6FDAE)
+I (..\USER\stm32f10x.h)(0x56E6FDAE)
+I (..\CORE\core_cm3.h)(0x56E6FDAE)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (..\USER\system_stm32f10x.h)(0x56E6FDAE)
+I (..\USER\stm32f10x_conf.h)(0x56E6FDAE)
+I (..\STM32F10x_FWLib\inc\stm32f10x_exti.h)(0x56E6FDAE)
+I (..\STM32F10x_FWLib\inc\stm32f10x_flash.h)(0x56E6FDAE)
+I (..\STM32F10x_FWLib\inc\stm32f10x_fsmc.h)(0x56E6FDAE)
+I (..\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x56E6FDAE)
+I (..\STM32F10x_FWLib\inc\stm32f10x_pwr.h)(0x56E6FDAE)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x56E6FDAE)
+I (..\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x56E6FDAE)
+I (..\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x56E6FDAE)
+I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x56E6FDAE)
+I (..\STM32F10x_FWLib\inc\misc.h)(0x56E6FDAE)
+I (..\USB\CONFIG\hw_config.h)(0x56E6FDAE)
+I (..\USB\CONFIG\platform_config.h)(0x56E6FDAE)
+I (..\USB\CONFIG\mass_mal.h)(0x56E6FDAE)
+I (..\USB\CONFIG\usb_desc.h)(0x56E6FDAE)
+I (..\USB\CONFIG\usb_pwr.h)(0x56E6FDAE)
+I (..\USB\LIB\usb_core.h)(0x56E6FDAE)
+I (..\HARDWARE\LED\led.h)(0x56E6FDAE)
+F (..\USB\CONFIG\mass_mal.c)(0x56E6FDAE)(-c --cpu Cortex-M3 -g -O2 --apcs=interwork -I ..\HARDWARE\LED -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\USER -I ..\STM32F10x_FWLib\inc -I ..\CORE -I ..\HARDWARE\KEY -I ..\HARDWARE\LCD -I ..\HARDWARE\RTC -I ..\HARDWARE\RTC -I ..\HARDWARE\WKUP -I ..\HARDWARE\ADC -I ..\HARDWARE\DAC -I ..\HARDWARE\DMA -I ..\HARDWARE\IIC -I ..\HARDWARE\24CXX -I ..\HARDWARE\SPI -I ..\HARDWARE\FLASH -I ..\HARDWARE\TOUCH -I ..\HARDWARE\REMOTE -I ..\HARDWARE\ADXL345 -I ..\HARDWARE\DS18B20 -I ..\HARDWARE\NRF24L01 -I ..\HARDWARE\SRAM -I ..\MALLOC -I ..\HARDWARE\SD -I ..\FATFS\exfuns -I ..\FATFS\src -I ..\USMART -I ..\FATFS\src\option -I ..\USB\CONFIG -I ..\USB\LIB -I ..\HARDWARE-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include-D__UVISION_VERSION="523" -D_RTE_ -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\mass_mal.o --omf_browse ..\obj\mass_mal.crf --depend ..\obj\mass_mal.d)
+I (..\USB\CONFIG\platform_config.h)(0x56E6FDAE)
+I (..\USER\stm32f10x.h)(0x56E6FDAE)
+I (..\CORE\core_cm3.h)(0x56E6FDAE)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (..\USER\system_stm32f10x.h)(0x56E6FDAE)
+I (..\USER\stm32f10x_conf.h)(0x56E6FDAE)
+I (..\STM32F10x_FWLib\inc\stm32f10x_exti.h)(0x56E6FDAE)
+I (..\STM32F10x_FWLib\inc\stm32f10x_flash.h)(0x56E6FDAE)
+I (..\STM32F10x_FWLib\inc\stm32f10x_fsmc.h)(0x56E6FDAE)
+I (..\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x56E6FDAE)
+I (..\STM32F10x_FWLib\inc\stm32f10x_pwr.h)(0x56E6FDAE)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x56E6FDAE)
+I (..\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x56E6FDAE)
+I (..\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x56E6FDAE)
+I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x56E6FDAE)
+I (..\STM32F10x_FWLib\inc\misc.h)(0x56E6FDAE)
+I (..\USB\CONFIG\mass_mal.h)(0x56E6FDAE)
+I (..\HARDWARE\stmflash.h)(0x56E6FDAE)
+I (..\SYSTEM\sys\sys.h)(0x56E6FDAE)
+I (..\SYSTEM\usart\usart.h)(0x56E6FDAE)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x57F606B8)
+I (..\USER\FAT16.h)(0x56E6FDAE)
+F (..\USB\CONFIG\scsi_data.c)(0x5D1AB2CE)(-c --cpu Cortex-M3 -g -O2 --apcs=interwork -I ..\HARDWARE\LED -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\USER -I ..\STM32F10x_FWLib\inc -I ..\CORE -I ..\HARDWARE\KEY -I ..\HARDWARE\LCD -I ..\HARDWARE\RTC -I ..\HARDWARE\RTC -I ..\HARDWARE\WKUP -I ..\HARDWARE\ADC -I ..\HARDWARE\DAC -I ..\HARDWARE\DMA -I ..\HARDWARE\IIC -I ..\HARDWARE\24CXX -I ..\HARDWARE\SPI -I ..\HARDWARE\FLASH -I ..\HARDWARE\TOUCH -I ..\HARDWARE\REMOTE -I ..\HARDWARE\ADXL345 -I ..\HARDWARE\DS18B20 -I ..\HARDWARE\NRF24L01 -I ..\HARDWARE\SRAM -I ..\MALLOC -I ..\HARDWARE\SD -I ..\FATFS\exfuns -I ..\FATFS\src -I ..\USMART -I ..\FATFS\src\option -I ..\USB\CONFIG -I ..\USB\LIB -I ..\HARDWARE-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include-D__UVISION_VERSION="523" -D_RTE_ -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\scsi_data.o --omf_browse ..\obj\scsi_data.crf --depend ..\obj\scsi_data.d)
+I (..\USB\CONFIG\usb_scsi.h)(0x56E6FDAE)
+I (..\USER\stm32f10x.h)(0x56E6FDAE)
+I (..\CORE\core_cm3.h)(0x56E6FDAE)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (..\USER\system_stm32f10x.h)(0x56E6FDAE)
+I (..\USER\stm32f10x_conf.h)(0x56E6FDAE)
+I (..\STM32F10x_FWLib\inc\stm32f10x_exti.h)(0x56E6FDAE)
+I (..\STM32F10x_FWLib\inc\stm32f10x_flash.h)(0x56E6FDAE)
+I (..\STM32F10x_FWLib\inc\stm32f10x_fsmc.h)(0x56E6FDAE)
+I (..\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x56E6FDAE)
+I (..\STM32F10x_FWLib\inc\stm32f10x_pwr.h)(0x56E6FDAE)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x56E6FDAE)
+I (..\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x56E6FDAE)
+I (..\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x56E6FDAE)
+I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x56E6FDAE)
+I (..\STM32F10x_FWLib\inc\misc.h)(0x56E6FDAE)
+I (..\USB\CONFIG\memory.h)(0x56E6FDAE)
+F (..\USB\CONFIG\usb_bot.c)(0x56E6FDAE)(-c --cpu Cortex-M3 -g -O2 --apcs=interwork -I ..\HARDWARE\LED -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\USER -I ..\STM32F10x_FWLib\inc -I ..\CORE -I ..\HARDWARE\KEY -I ..\HARDWARE\LCD -I ..\HARDWARE\RTC -I ..\HARDWARE\RTC -I ..\HARDWARE\WKUP -I ..\HARDWARE\ADC -I ..\HARDWARE\DAC -I ..\HARDWARE\DMA -I ..\HARDWARE\IIC -I ..\HARDWARE\24CXX -I ..\HARDWARE\SPI -I ..\HARDWARE\FLASH -I ..\HARDWARE\TOUCH -I ..\HARDWARE\REMOTE -I ..\HARDWARE\ADXL345 -I ..\HARDWARE\DS18B20 -I ..\HARDWARE\NRF24L01 -I ..\HARDWARE\SRAM -I ..\MALLOC -I ..\HARDWARE\SD -I ..\FATFS\exfuns -I ..\FATFS\src -I ..\USMART -I ..\FATFS\src\option -I ..\USB\CONFIG -I ..\USB\LIB -I ..\HARDWARE-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include-D__UVISION_VERSION="523" -D_RTE_ -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\usb_bot.o --omf_browse ..\obj\usb_bot.crf --depend ..\obj\usb_bot.d)
+I (..\USB\CONFIG\usb_scsi.h)(0x56E6FDAE)
+I (..\USER\stm32f10x.h)(0x56E6FDAE)
+I (..\CORE\core_cm3.h)(0x56E6FDAE)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (..\USER\system_stm32f10x.h)(0x56E6FDAE)
+I (..\USER\stm32f10x_conf.h)(0x56E6FDAE)
+I (..\STM32F10x_FWLib\inc\stm32f10x_exti.h)(0x56E6FDAE)
+I (..\STM32F10x_FWLib\inc\stm32f10x_flash.h)(0x56E6FDAE)
+I (..\STM32F10x_FWLib\inc\stm32f10x_fsmc.h)(0x56E6FDAE)
+I (..\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x56E6FDAE)
+I (..\STM32F10x_FWLib\inc\stm32f10x_pwr.h)(0x56E6FDAE)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x56E6FDAE)
+I (..\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x56E6FDAE)
+I (..\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x56E6FDAE)
+I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x56E6FDAE)
+I (..\STM32F10x_FWLib\inc\misc.h)(0x56E6FDAE)
+I (..\USB\CONFIG\hw_config.h)(0x56E6FDAE)
+I (..\USB\LIB\usb_regs.h)(0x56E6FDAE)
+I (..\USB\LIB\usb_mem.h)(0x56E6FDAE)
+I (..\USB\CONFIG\usb_conf.h)(0x56E6FDAE)
+I (..\USB\CONFIG\usb_bot.h)(0x56E6FDAE)
+I (..\USB\CONFIG\memory.h)(0x56E6FDAE)
+F (..\USB\CONFIG\usb_desc.c)(0x5D1AB090)(-c --cpu Cortex-M3 -g -O2 --apcs=interwork -I ..\HARDWARE\LED -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\USER -I ..\STM32F10x_FWLib\inc -I ..\CORE -I ..\HARDWARE\KEY -I ..\HARDWARE\LCD -I ..\HARDWARE\RTC -I ..\HARDWARE\RTC -I ..\HARDWARE\WKUP -I ..\HARDWARE\ADC -I ..\HARDWARE\DAC -I ..\HARDWARE\DMA -I ..\HARDWARE\IIC -I ..\HARDWARE\24CXX -I ..\HARDWARE\SPI -I ..\HARDWARE\FLASH -I ..\HARDWARE\TOUCH -I ..\HARDWARE\REMOTE -I ..\HARDWARE\ADXL345 -I ..\HARDWARE\DS18B20 -I ..\HARDWARE\NRF24L01 -I ..\HARDWARE\SRAM -I ..\MALLOC -I ..\HARDWARE\SD -I ..\FATFS\exfuns -I ..\FATFS\src -I ..\USMART -I ..\FATFS\src\option -I ..\USB\CONFIG -I ..\USB\LIB -I ..\HARDWARE-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include-D__UVISION_VERSION="523" -D_RTE_ -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\usb_desc.o --omf_browse ..\obj\usb_desc.crf --depend ..\obj\usb_desc.d)
+I (..\USB\CONFIG\usb_desc.h)(0x56E6FDAE)
+I (..\USER\stm32f10x.h)(0x56E6FDAE)
+I (..\CORE\core_cm3.h)(0x56E6FDAE)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (..\USER\system_stm32f10x.h)(0x56E6FDAE)
+I (..\USER\stm32f10x_conf.h)(0x56E6FDAE)
+I (..\STM32F10x_FWLib\inc\stm32f10x_exti.h)(0x56E6FDAE)
+I (..\STM32F10x_FWLib\inc\stm32f10x_flash.h)(0x56E6FDAE)
+I (..\STM32F10x_FWLib\inc\stm32f10x_fsmc.h)(0x56E6FDAE)
+I (..\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x56E6FDAE)
+I (..\STM32F10x_FWLib\inc\stm32f10x_pwr.h)(0x56E6FDAE)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x56E6FDAE)
+I (..\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x56E6FDAE)
+I (..\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x56E6FDAE)
+I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x56E6FDAE)
+I (..\STM32F10x_FWLib\inc\misc.h)(0x56E6FDAE)
+F (..\USB\CONFIG\usb_endp.c)(0x56E6FDAE)(-c --cpu Cortex-M3 -g -O2 --apcs=interwork -I ..\HARDWARE\LED -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\USER -I ..\STM32F10x_FWLib\inc -I ..\CORE -I ..\HARDWARE\KEY -I ..\HARDWARE\LCD -I ..\HARDWARE\RTC -I ..\HARDWARE\RTC -I ..\HARDWARE\WKUP -I ..\HARDWARE\ADC -I ..\HARDWARE\DAC -I ..\HARDWARE\DMA -I ..\HARDWARE\IIC -I ..\HARDWARE\24CXX -I ..\HARDWARE\SPI -I ..\HARDWARE\FLASH -I ..\HARDWARE\TOUCH -I ..\HARDWARE\REMOTE -I ..\HARDWARE\ADXL345 -I ..\HARDWARE\DS18B20 -I ..\HARDWARE\NRF24L01 -I ..\HARDWARE\SRAM -I ..\MALLOC -I ..\HARDWARE\SD -I ..\FATFS\exfuns -I ..\FATFS\src -I ..\USMART -I ..\FATFS\src\option -I ..\USB\CONFIG -I ..\USB\LIB -I ..\HARDWARE-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include-D__UVISION_VERSION="523" -D_RTE_ -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\usb_endp.o --omf_browse ..\obj\usb_endp.crf --depend ..\obj\usb_endp.d)
+I (..\USB\LIB\usb_lib.h)(0x56E6FDAE)
+I (..\USB\LIB\usb_type.h)(0x56E6FDAE)
+I (..\USB\CONFIG\usb_conf.h)(0x56E6FDAE)
+I (..\USB\LIB\usb_regs.h)(0x56E6FDAE)
+I (..\USER\stm32f10x.h)(0x56E6FDAE)
+I (..\CORE\core_cm3.h)(0x56E6FDAE)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (..\USER\system_stm32f10x.h)(0x56E6FDAE)
+I (..\USER\stm32f10x_conf.h)(0x56E6FDAE)
+I (..\STM32F10x_FWLib\inc\stm32f10x_exti.h)(0x56E6FDAE)
+I (..\STM32F10x_FWLib\inc\stm32f10x_flash.h)(0x56E6FDAE)
+I (..\STM32F10x_FWLib\inc\stm32f10x_fsmc.h)(0x56E6FDAE)
+I (..\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x56E6FDAE)
+I (..\STM32F10x_FWLib\inc\stm32f10x_pwr.h)(0x56E6FDAE)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x56E6FDAE)
+I (..\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x56E6FDAE)
+I (..\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x56E6FDAE)
+I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x56E6FDAE)
+I (..\STM32F10x_FWLib\inc\misc.h)(0x56E6FDAE)
+I (..\USB\LIB\usb_def.h)(0x56E6FDAE)
+I (..\USB\LIB\usb_core.h)(0x56E6FDAE)
+I (..\USB\LIB\usb_init.h)(0x56E6FDAE)
+I (..\USB\LIB\usb_mem.h)(0x56E6FDAE)
+I (..\USB\LIB\usb_int.h)(0x56E6FDAE)
+I (..\USB\CONFIG\usb_bot.h)(0x56E6FDAE)
+I (..\USB\CONFIG\usb_istr.h)(0x56E6FDAE)
+F (..\USB\CONFIG\usb_istr.c)(0x56E6FDAE)(-c --cpu Cortex-M3 -g -O2 --apcs=interwork -I ..\HARDWARE\LED -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\USER -I ..\STM32F10x_FWLib\inc -I ..\CORE -I ..\HARDWARE\KEY -I ..\HARDWARE\LCD -I ..\HARDWARE\RTC -I ..\HARDWARE\RTC -I ..\HARDWARE\WKUP -I ..\HARDWARE\ADC -I ..\HARDWARE\DAC -I ..\HARDWARE\DMA -I ..\HARDWARE\IIC -I ..\HARDWARE\24CXX -I ..\HARDWARE\SPI -I ..\HARDWARE\FLASH -I ..\HARDWARE\TOUCH -I ..\HARDWARE\REMOTE -I ..\HARDWARE\ADXL345 -I ..\HARDWARE\DS18B20 -I ..\HARDWARE\NRF24L01 -I ..\HARDWARE\SRAM -I ..\MALLOC -I ..\HARDWARE\SD -I ..\FATFS\exfuns -I ..\FATFS\src -I ..\USMART -I ..\FATFS\src\option -I ..\USB\CONFIG -I ..\USB\LIB -I ..\HARDWARE-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include-D__UVISION_VERSION="523" -D_RTE_ -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\usb_istr.o --omf_browse ..\obj\usb_istr.crf --depend ..\obj\usb_istr.d)
+I (..\USB\LIB\usb_type.h)(0x56E6FDAE)
+I (..\USB\CONFIG\usb_conf.h)(0x56E6FDAE)
+I (..\USB\LIB\usb_regs.h)(0x56E6FDAE)
+I (..\USER\stm32f10x.h)(0x56E6FDAE)
+I (..\CORE\core_cm3.h)(0x56E6FDAE)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (..\USER\system_stm32f10x.h)(0x56E6FDAE)
+I (..\USER\stm32f10x_conf.h)(0x56E6FDAE)
+I (..\STM32F10x_FWLib\inc\stm32f10x_exti.h)(0x56E6FDAE)
+I (..\STM32F10x_FWLib\inc\stm32f10x_flash.h)(0x56E6FDAE)
+I (..\STM32F10x_FWLib\inc\stm32f10x_fsmc.h)(0x56E6FDAE)
+I (..\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x56E6FDAE)
+I (..\STM32F10x_FWLib\inc\stm32f10x_pwr.h)(0x56E6FDAE)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x56E6FDAE)
+I (..\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x56E6FDAE)
+I (..\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x56E6FDAE)
+I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x56E6FDAE)
+I (..\STM32F10x_FWLib\inc\misc.h)(0x56E6FDAE)
+I (..\USB\CONFIG\usb_pwr.h)(0x56E6FDAE)
+I (..\USB\LIB\usb_core.h)(0x56E6FDAE)
+I (..\USB\CONFIG\usb_istr.h)(0x56E6FDAE)
+I (..\USB\LIB\usb_init.h)(0x56E6FDAE)
+I (..\USB\LIB\usb_int.h)(0x56E6FDAE)
+F (..\USB\CONFIG\usb_prop.c)(0x56E6FDAE)(-c --cpu Cortex-M3 -g -O2 --apcs=interwork -I ..\HARDWARE\LED -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\USER -I ..\STM32F10x_FWLib\inc -I ..\CORE -I ..\HARDWARE\KEY -I ..\HARDWARE\LCD -I ..\HARDWARE\RTC -I ..\HARDWARE\RTC -I ..\HARDWARE\WKUP -I ..\HARDWARE\ADC -I ..\HARDWARE\DAC -I ..\HARDWARE\DMA -I ..\HARDWARE\IIC -I ..\HARDWARE\24CXX -I ..\HARDWARE\SPI -I ..\HARDWARE\FLASH -I ..\HARDWARE\TOUCH -I ..\HARDWARE\REMOTE -I ..\HARDWARE\ADXL345 -I ..\HARDWARE\DS18B20 -I ..\HARDWARE\NRF24L01 -I ..\HARDWARE\SRAM -I ..\MALLOC -I ..\HARDWARE\SD -I ..\FATFS\exfuns -I ..\FATFS\src -I ..\USMART -I ..\FATFS\src\option -I ..\USB\CONFIG -I ..\USB\LIB -I ..\HARDWARE-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include-D__UVISION_VERSION="523" -D_RTE_ -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\usb_prop.o --omf_browse ..\obj\usb_prop.crf --depend ..\obj\usb_prop.d)
+I (..\USB\CONFIG\usb_desc.h)(0x56E6FDAE)
+I (..\USER\stm32f10x.h)(0x56E6FDAE)
+I (..\CORE\core_cm3.h)(0x56E6FDAE)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (..\USER\system_stm32f10x.h)(0x56E6FDAE)
+I (..\USER\stm32f10x_conf.h)(0x56E6FDAE)
+I (..\STM32F10x_FWLib\inc\stm32f10x_exti.h)(0x56E6FDAE)
+I (..\STM32F10x_FWLib\inc\stm32f10x_flash.h)(0x56E6FDAE)
+I (..\STM32F10x_FWLib\inc\stm32f10x_fsmc.h)(0x56E6FDAE)
+I (..\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x56E6FDAE)
+I (..\STM32F10x_FWLib\inc\stm32f10x_pwr.h)(0x56E6FDAE)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x56E6FDAE)
+I (..\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x56E6FDAE)
+I (..\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x56E6FDAE)
+I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x56E6FDAE)
+I (..\STM32F10x_FWLib\inc\misc.h)(0x56E6FDAE)
+I (..\USB\CONFIG\usb_pwr.h)(0x56E6FDAE)
+I (..\USB\LIB\usb_core.h)(0x56E6FDAE)
+I (..\USB\CONFIG\usb_bot.h)(0x56E6FDAE)
+I (..\USB\CONFIG\hw_config.h)(0x56E6FDAE)
+I (..\USB\CONFIG\memory.h)(0x56E6FDAE)
+I (..\USB\CONFIG\mass_mal.h)(0x56E6FDAE)
+I (..\USB\CONFIG\usb_prop.h)(0x56E6FDAE)
+I (..\USB\LIB\usb_lib.h)(0x56E6FDAE)
+I (..\USB\LIB\usb_type.h)(0x56E6FDAE)
+I (..\USB\CONFIG\usb_conf.h)(0x56E6FDAE)
+I (..\USB\LIB\usb_regs.h)(0x56E6FDAE)
+I (..\USB\LIB\usb_def.h)(0x56E6FDAE)
+I (..\USB\LIB\usb_init.h)(0x56E6FDAE)
+I (..\USB\LIB\usb_mem.h)(0x56E6FDAE)
+I (..\USB\LIB\usb_int.h)(0x56E6FDAE)
+F (..\USB\CONFIG\usb_pwr.c)(0x56E6FDAE)(-c --cpu Cortex-M3 -g -O2 --apcs=interwork -I ..\HARDWARE\LED -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\USER -I ..\STM32F10x_FWLib\inc -I ..\CORE -I ..\HARDWARE\KEY -I ..\HARDWARE\LCD -I ..\HARDWARE\RTC -I ..\HARDWARE\RTC -I ..\HARDWARE\WKUP -I ..\HARDWARE\ADC -I ..\HARDWARE\DAC -I ..\HARDWARE\DMA -I ..\HARDWARE\IIC -I ..\HARDWARE\24CXX -I ..\HARDWARE\SPI -I ..\HARDWARE\FLASH -I ..\HARDWARE\TOUCH -I ..\HARDWARE\REMOTE -I ..\HARDWARE\ADXL345 -I ..\HARDWARE\DS18B20 -I ..\HARDWARE\NRF24L01 -I ..\HARDWARE\SRAM -I ..\MALLOC -I ..\HARDWARE\SD -I ..\FATFS\exfuns -I ..\FATFS\src -I ..\USMART -I ..\FATFS\src\option -I ..\USB\CONFIG -I ..\USB\LIB -I ..\HARDWARE-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include-D__UVISION_VERSION="523" -D_RTE_ -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\usb_pwr.o --omf_browse ..\obj\usb_pwr.crf --depend ..\obj\usb_pwr.d)
+I (..\USER\stm32f10x.h)(0x56E6FDAE)
+I (..\CORE\core_cm3.h)(0x56E6FDAE)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (..\USER\system_stm32f10x.h)(0x56E6FDAE)
+I (..\USER\stm32f10x_conf.h)(0x56E6FDAE)
+I (..\STM32F10x_FWLib\inc\stm32f10x_exti.h)(0x56E6FDAE)
+I (..\STM32F10x_FWLib\inc\stm32f10x_flash.h)(0x56E6FDAE)
+I (..\STM32F10x_FWLib\inc\stm32f10x_fsmc.h)(0x56E6FDAE)
+I (..\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x56E6FDAE)
+I (..\STM32F10x_FWLib\inc\stm32f10x_pwr.h)(0x56E6FDAE)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x56E6FDAE)
+I (..\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x56E6FDAE)
+I (..\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x56E6FDAE)
+I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x56E6FDAE)
+I (..\STM32F10x_FWLib\inc\misc.h)(0x56E6FDAE)
+I (..\USB\LIB\usb_lib.h)(0x56E6FDAE)
+I (..\USB\LIB\usb_type.h)(0x56E6FDAE)
+I (..\USB\CONFIG\usb_conf.h)(0x56E6FDAE)
+I (..\USB\LIB\usb_regs.h)(0x56E6FDAE)
+I (..\USB\LIB\usb_def.h)(0x56E6FDAE)
+I (..\USB\LIB\usb_core.h)(0x56E6FDAE)
+I (..\USB\LIB\usb_init.h)(0x56E6FDAE)
+I (..\USB\LIB\usb_mem.h)(0x56E6FDAE)
+I (..\USB\LIB\usb_int.h)(0x56E6FDAE)
+I (..\USB\CONFIG\usb_pwr.h)(0x56E6FDAE)
+I (..\USB\CONFIG\hw_config.h)(0x56E6FDAE)
+F (..\USB\CONFIG\usb_scsi.c)(0x56E6FDAE)(-c --cpu Cortex-M3 -g -O2 --apcs=interwork -I ..\HARDWARE\LED -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\USER -I ..\STM32F10x_FWLib\inc -I ..\CORE -I ..\HARDWARE\KEY -I ..\HARDWARE\LCD -I ..\HARDWARE\RTC -I ..\HARDWARE\RTC -I ..\HARDWARE\WKUP -I ..\HARDWARE\ADC -I ..\HARDWARE\DAC -I ..\HARDWARE\DMA -I ..\HARDWARE\IIC -I ..\HARDWARE\24CXX -I ..\HARDWARE\SPI -I ..\HARDWARE\FLASH -I ..\HARDWARE\TOUCH -I ..\HARDWARE\REMOTE -I ..\HARDWARE\ADXL345 -I ..\HARDWARE\DS18B20 -I ..\HARDWARE\NRF24L01 -I ..\HARDWARE\SRAM -I ..\MALLOC -I ..\HARDWARE\SD -I ..\FATFS\exfuns -I ..\FATFS\src -I ..\USMART -I ..\FATFS\src\option -I ..\USB\CONFIG -I ..\USB\LIB -I ..\HARDWARE-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include-D__UVISION_VERSION="523" -D_RTE_ -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\usb_scsi.o --omf_browse ..\obj\usb_scsi.crf --depend ..\obj\usb_scsi.d)
+I (..\USB\CONFIG\hw_config.h)(0x56E6FDAE)
+I (..\USER\stm32f10x.h)(0x56E6FDAE)
+I (..\CORE\core_cm3.h)(0x56E6FDAE)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (..\USER\system_stm32f10x.h)(0x56E6FDAE)
+I (..\USER\stm32f10x_conf.h)(0x56E6FDAE)
+I (..\STM32F10x_FWLib\inc\stm32f10x_exti.h)(0x56E6FDAE)
+I (..\STM32F10x_FWLib\inc\stm32f10x_flash.h)(0x56E6FDAE)
+I (..\STM32F10x_FWLib\inc\stm32f10x_fsmc.h)(0x56E6FDAE)
+I (..\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x56E6FDAE)
+I (..\STM32F10x_FWLib\inc\stm32f10x_pwr.h)(0x56E6FDAE)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x56E6FDAE)
+I (..\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x56E6FDAE)
+I (..\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x56E6FDAE)
+I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x56E6FDAE)
+I (..\STM32F10x_FWLib\inc\misc.h)(0x56E6FDAE)
+I (..\USB\CONFIG\usb_scsi.h)(0x56E6FDAE)
+I (..\USB\CONFIG\mass_mal.h)(0x56E6FDAE)
+I (..\USB\CONFIG\usb_bot.h)(0x56E6FDAE)
+I (..\USB\LIB\usb_regs.h)(0x56E6FDAE)
+I (..\USB\CONFIG\memory.h)(0x56E6FDAE)
+I (..\USB\CONFIG\platform_config.h)(0x56E6FDAE)
+F (..\USB\CONFIG\memory.c)(0x56E6FDAE)(-c --cpu Cortex-M3 -g -O2 --apcs=interwork -I ..\HARDWARE\LED -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\USER -I ..\STM32F10x_FWLib\inc -I ..\CORE -I ..\HARDWARE\KEY -I ..\HARDWARE\LCD -I ..\HARDWARE\RTC -I ..\HARDWARE\RTC -I ..\HARDWARE\WKUP -I ..\HARDWARE\ADC -I ..\HARDWARE\DAC -I ..\HARDWARE\DMA -I ..\HARDWARE\IIC -I ..\HARDWARE\24CXX -I ..\HARDWARE\SPI -I ..\HARDWARE\FLASH -I ..\HARDWARE\TOUCH -I ..\HARDWARE\REMOTE -I ..\HARDWARE\ADXL345 -I ..\HARDWARE\DS18B20 -I ..\HARDWARE\NRF24L01 -I ..\HARDWARE\SRAM -I ..\MALLOC -I ..\HARDWARE\SD -I ..\FATFS\exfuns -I ..\FATFS\src -I ..\USMART -I ..\FATFS\src\option -I ..\USB\CONFIG -I ..\USB\LIB -I ..\HARDWARE-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include-D__UVISION_VERSION="523" -D_RTE_ -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\memory.o --omf_browse ..\obj\memory.crf --depend ..\obj\memory.d)
+I (..\USB\CONFIG\memory.h)(0x56E6FDAE)
+I (..\USER\stm32f10x.h)(0x56E6FDAE)
+I (..\CORE\core_cm3.h)(0x56E6FDAE)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (..\USER\system_stm32f10x.h)(0x56E6FDAE)
+I (..\USER\stm32f10x_conf.h)(0x56E6FDAE)
+I (..\STM32F10x_FWLib\inc\stm32f10x_exti.h)(0x56E6FDAE)
+I (..\STM32F10x_FWLib\inc\stm32f10x_flash.h)(0x56E6FDAE)
+I (..\STM32F10x_FWLib\inc\stm32f10x_fsmc.h)(0x56E6FDAE)
+I (..\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x56E6FDAE)
+I (..\STM32F10x_FWLib\inc\stm32f10x_pwr.h)(0x56E6FDAE)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x56E6FDAE)
+I (..\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x56E6FDAE)
+I (..\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x56E6FDAE)
+I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x56E6FDAE)
+I (..\STM32F10x_FWLib\inc\misc.h)(0x56E6FDAE)
+I (..\USB\CONFIG\usb_scsi.h)(0x56E6FDAE)
+I (..\USB\CONFIG\usb_bot.h)(0x56E6FDAE)
+I (..\USB\LIB\usb_regs.h)(0x56E6FDAE)
+I (..\USB\LIB\usb_mem.h)(0x56E6FDAE)
+I (..\USB\CONFIG\usb_conf.h)(0x56E6FDAE)
+I (..\USB\CONFIG\hw_config.h)(0x56E6FDAE)
+I (..\USB\CONFIG\mass_mal.h)(0x56E6FDAE)
+F (.\FAT16.c)(0x5D1AB5F2)(-c --cpu Cortex-M3 -g -O2 --apcs=interwork -I ..\HARDWARE\LED -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\USER -I ..\STM32F10x_FWLib\inc -I ..\CORE -I ..\HARDWARE\KEY -I ..\HARDWARE\LCD -I ..\HARDWARE\RTC -I ..\HARDWARE\RTC -I ..\HARDWARE\WKUP -I ..\HARDWARE\ADC -I ..\HARDWARE\DAC -I ..\HARDWARE\DMA -I ..\HARDWARE\IIC -I ..\HARDWARE\24CXX -I ..\HARDWARE\SPI -I ..\HARDWARE\FLASH -I ..\HARDWARE\TOUCH -I ..\HARDWARE\REMOTE -I ..\HARDWARE\ADXL345 -I ..\HARDWARE\DS18B20 -I ..\HARDWARE\NRF24L01 -I ..\HARDWARE\SRAM -I ..\MALLOC -I ..\HARDWARE\SD -I ..\FATFS\exfuns -I ..\FATFS\src -I ..\USMART -I ..\FATFS\src\option -I ..\USB\CONFIG -I ..\USB\LIB -I ..\HARDWARE-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include-D__UVISION_VERSION="523" -D_RTE_ -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\fat16.o --omf_browse ..\obj\fat16.crf --depend ..\obj\fat16.d)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x57F606B8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x57F606B8)
+I (FAT16.h)(0x56E6FDAE)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (..\HARDWARE\stmflash.h)(0x56E6FDAE)
+I (..\SYSTEM\sys\sys.h)(0x56E6FDAE)
+I (..\USER\stm32f10x.h)(0x56E6FDAE)
+I (..\CORE\core_cm3.h)(0x56E6FDAE)
+I (..\USER\system_stm32f10x.h)(0x56E6FDAE)
+I (..\USER\stm32f10x_conf.h)(0x56E6FDAE)
+I (..\STM32F10x_FWLib\inc\stm32f10x_exti.h)(0x56E6FDAE)
+I (..\STM32F10x_FWLib\inc\stm32f10x_flash.h)(0x56E6FDAE)
+I (..\STM32F10x_FWLib\inc\stm32f10x_fsmc.h)(0x56E6FDAE)
+I (..\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x56E6FDAE)
+I (..\STM32F10x_FWLib\inc\stm32f10x_pwr.h)(0x56E6FDAE)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x56E6FDAE)
+I (..\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x56E6FDAE)
+I (..\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x56E6FDAE)
+I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x56E6FDAE)
+I (..\STM32F10x_FWLib\inc\misc.h)(0x56E6FDAE)
+I (hex.h)(0x56E6FDAE)
+I (main.h)(0x56E6FDAE)
+F (.\FAT16.h)(0x56E6FDAE)()
+F (.\API.c)(0x56E6FDAE)(-c --cpu Cortex-M3 -g -O2 --apcs=interwork -I ..\HARDWARE\LED -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\USER -I ..\STM32F10x_FWLib\inc -I ..\CORE -I ..\HARDWARE\KEY -I ..\HARDWARE\LCD -I ..\HARDWARE\RTC -I ..\HARDWARE\RTC -I ..\HARDWARE\WKUP -I ..\HARDWARE\ADC -I ..\HARDWARE\DAC -I ..\HARDWARE\DMA -I ..\HARDWARE\IIC -I ..\HARDWARE\24CXX -I ..\HARDWARE\SPI -I ..\HARDWARE\FLASH -I ..\HARDWARE\TOUCH -I ..\HARDWARE\REMOTE -I ..\HARDWARE\ADXL345 -I ..\HARDWARE\DS18B20 -I ..\HARDWARE\NRF24L01 -I ..\HARDWARE\SRAM -I ..\MALLOC -I ..\HARDWARE\SD -I ..\FATFS\exfuns -I ..\FATFS\src -I ..\USMART -I ..\FATFS\src\option -I ..\USB\CONFIG -I ..\USB\LIB -I ..\HARDWARE-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include-D__UVISION_VERSION="523" -D_RTE_ -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\api.o --omf_browse ..\obj\api.crf --depend ..\obj\api.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+F (.\hex.c)(0x56E6FDAE)(-c --cpu Cortex-M3 -g -O2 --apcs=interwork -I ..\HARDWARE\LED -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\USER -I ..\STM32F10x_FWLib\inc -I ..\CORE -I ..\HARDWARE\KEY -I ..\HARDWARE\LCD -I ..\HARDWARE\RTC -I ..\HARDWARE\RTC -I ..\HARDWARE\WKUP -I ..\HARDWARE\ADC -I ..\HARDWARE\DAC -I ..\HARDWARE\DMA -I ..\HARDWARE\IIC -I ..\HARDWARE\24CXX -I ..\HARDWARE\SPI -I ..\HARDWARE\FLASH -I ..\HARDWARE\TOUCH -I ..\HARDWARE\REMOTE -I ..\HARDWARE\ADXL345 -I ..\HARDWARE\DS18B20 -I ..\HARDWARE\NRF24L01 -I ..\HARDWARE\SRAM -I ..\MALLOC -I ..\HARDWARE\SD -I ..\FATFS\exfuns -I ..\FATFS\src -I ..\USMART -I ..\FATFS\src\option -I ..\USB\CONFIG -I ..\USB\LIB -I ..\HARDWARE-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include-D__UVISION_VERSION="523" -D_RTE_ -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\hex.o --omf_browse ..\obj\hex.crf --depend ..\obj\hex.d)
+I (hex.h)(0x56E6FDAE)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x57F606B8)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x57F606B8)
